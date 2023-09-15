@@ -17,6 +17,8 @@ def move(coordinates, direction, command):
         a=-1
         direction = up(direction, a)
 
+    return coordinates, direction
+
 def forward(coordinates, direction, a):
     if direction == 'N':
         coordinates[1]=coordinates[1]+a

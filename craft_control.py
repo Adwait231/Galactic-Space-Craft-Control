@@ -68,4 +68,3 @@ def up(direction, a):
     return direction
 
 
-
